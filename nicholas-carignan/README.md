@@ -1,5 +1,5 @@
 # 1-ES6-practice
- 
+
 ## Feature Tasks
 
 Follow these instructions carefully and in order.
@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+let and var can be used anywhere there was a var in this code to make var more specific and useful. const was used whenever you needed to create a constant varriable that didnt need to change. This includes arrays and objects that need to be appended to or have mutable properties. Let is used when it must be locally sourced and its value must be mutable. For example in a for loop where the i variable needs to be incremented.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+I was confusing \` and \' in all the tutorials. I had not realized they were different because it was still taking my input correctly when I just used \' . I think it was either adapting for it or it may just be that it is an organizational thing. The only reason I knew it was wrong is the linter errors but the page ran fine.
